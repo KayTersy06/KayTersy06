@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Siphesihle Xolani Skosana — Final Year Computer Science Student at Tshwane University of Technology." />
+  <title>Siphesihle Skosana | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===== NAV ===== -->
+  <nav>
+    <div class="container nav-inner">
+      <a href="#hero" class="nav-logo">sxs<span>.dev</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+      <div class="hamburger" role="button" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-grid"></div>
+    <div class="container">
+      <div class="hero-content">
+        <p class="hero-greeting">Hello, world</p>
+        <h1 class="hero-name">Siphesihle<br />Skosana.</h1>
+        <p class="hero-role"><span id="typing-role"></span><span style="color:var(--accent); animation: blink 1s infinite;">|</span></p>
+        <p class="hero-desc">
+          Final year Computer Science student at the Tshwane University of Technology,
+          passionate about building elegant software and solving real-world problems through code.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3h7v7H3zM14 3h7v7h-7zM14 14h7v7h-7zM3 14h7v7H3z"/></svg>
+            View Projects
+          </a>
+          <a href="#contact" class="btn btn-secondary">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            Get in Touch
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      scroll
+      <svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text">
+          <div class="section-header">
+            <span class="section-label">// about me</span>
+            <h2 class="section-title">Who I <span>Am</span></h2>
+          </div>
+          <p>
+            I'm <strong>Siphesihle Xolani Skosana</strong>, a final year Computer Science student
+            at the Tshwane University of Technology. I'm passionate about writing clean, efficient code
+            and building software that makes a real difference.
+          </p>
+          <p>
+            My journey in tech has been driven by curiosity — from building my first programs to exploring
+            full-stack development, algorithms, and database systems. I thrive at the intersection of
+            <strong>logic and creativity</strong>.
+          </p>
+          <p>
+            Outside of tech, I competed in local basketball tournaments from 2021 to 2023 — an experience
+            that sharpened my teamwork, discipline, and ability to perform under pressure. A 2024 injury
+            sidelined me from the court, but the same drive I brought to the game carries over into everything I build.
+          </p>
+          <div class="about-highlights">
+            <div class="highlight-item">
+              <div class="highlight-number">5+</div>
+              <div class="highlight-label">Years Studying CS</div>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-number">2+</div>
+              <div class="highlight-label">Projects Built</div>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-number">5+</div>
+              <div class="highlight-label">Technologies</div>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-number">2026</div>
+              <div class="highlight-label">Graduating</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-visual">
+          <div class="about-card">
+            <div class="about-avatar">SX</div>
+            <h3>Siphesihle Xolani Skosana</h3>
+            <p>Final Year Computer Science Student</p>
+            <div class="about-meta">
+              <div class="meta-item">
+                <div class="meta-icon">🎓</div>
+                <span>Tshwane University of Technology</span>
+              </div>
+              <div class="meta-item">
+                <div class="meta-icon">📍</div>
+                <span>Pretoria, South Africa</span>
+              </div>
+              <div class="meta-item">
+                <div class="meta-icon">💼</div>
+                <span>Open to opportunities</span>
+              </div>
+              <div class="meta-item">
+                <div class="meta-icon">📅</div>
+                <span>Graduating 2026</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">// what I work with</span>
+        <h2 class="section-title">Skills &amp; <span>Technologies</span></h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-category fade-up">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">💻</div>
+            <h3>Languages</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">C++</span>
+            <span class="skill-tag">SQL</span>
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+          </div>
+        </div>
+
+        <div class="skill-category fade-up">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">🌐</div>
+            <h3>Web Development</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">React</span>
+            <span class="skill-tag">Node.js</span>
+            <span class="skill-tag">Express</span>
+            <span class="skill-tag">REST APIs</span>
+            <span class="skill-tag">Responsive Design</span>
+          </div>
+        </div>
+
+        <div class="skill-category fade-up">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">🗄️</div>
+            <h3>Databases</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">PostgreSQL</span>
+            <span class="skill-tag">SQL</span>
+            <span class="skill-tag">PL/SQL</span>
+          </div>
+        </div>
+
+        <div class="skill-category fade-up">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">🛠️</div>
+            <h3>Tools &amp; Practices</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">GitHub</span>
+            <span class="skill-tag">VS Code</span>
+            <span class="skill-tag">Linux</span>
+<span class="skill-tag">OOP</span>
+            <span class="skill-tag">Data Structures</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">// what I've built</span>
+        <h2 class="section-title">Featured <span>Projects</span></h2>
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-card fade-up">
+          <div class="project-top">
+            <div class="project-icon">📞</div>
+            <div class="project-links">
+              <a href="https://github.com/KayTersy06/ICT-Call-Logging-System" target="_blank" rel="noopener" class="project-link" title="GitHub">
+                <svg viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              </a>
+              <a href="https://frontend-gz6e.onrender.com" target="_blank" rel="noopener" class="project-link" title="Live Demo">
+                <svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3>ICT Call Logging System</h3>
+          <p>A full-stack web application for logging and managing ICT support calls. Built with a separate client and server architecture, featuring a React frontend and a Node.js backend with 94 commits of active development.</p>
+          <div class="project-stack">
+            <span class="stack-tag">React</span>
+            <span class="stack-tag">Vite</span>
+            <span class="stack-tag">JavaScript</span>
+            <span class="stack-tag">Node.js</span>
+            <span class="stack-tag">CSS</span>
+          </div>
+        </div>
+
+        <div class="project-card fade-up">
+          <div class="project-top">
+            <div class="project-icon">🌐</div>
+            <div class="project-links">
+              <a href="https://github.com/KayTersy06/MOHLAKOANA" target="_blank" rel="noopener" class="project-link" title="GitHub">
+                <svg viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              </a>
+              <a href="https://eloquent-shockley-706c3e.netlify.app/" target="_blank" rel="noopener" class="project-link" title="Live Demo">
+                <svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3>Mohlakoana</h3>
+          <p>A multi-page website built and deployed to Netlify. Features a home page, about page, and contact page with a clean layout styled entirely with custom HTML and CSS.</p>
+          <div class="project-stack">
+            <span class="stack-tag">HTML</span>
+            <span class="stack-tag">CSS</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section id="experience">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">// my journey</span>
+        <h2 class="section-title">Education &amp; <span>Experience</span></h2>
+      </div>
+      <div class="timeline">
+
+        <div class="timeline-item fade-up">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2021 — Present</div>
+          <div class="timeline-title">Diploma in Computer Science (Extended Curriculum Programme)</div>
+          <div class="timeline-org">Tshwane University of Technology, Pretoria · NQF Level 6</div>
+          <ul class="timeline-desc">
+            <li>Final year student specialising in software development and systems design.</li>
+            <li>Core modules include Object-Oriented Programming, Web Computing, Database Principles, Operating Systems, Information Security, Internet Programming, Mobile Computing, and Software Engineering Fundamentals.</li>
+            <li>Completed multiple group and individual projects spanning web, desktop, and data applications.</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item fade-up">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Sep 2025 — Present</div>
+          <div class="timeline-title">WIL Student &amp; Volunteer — ICT Department</div>
+          <div class="timeline-org">Tembisa Provincial Tertiary Hospital, Tembisa</div>
+          <ul class="timeline-desc">
+            <li>Joined the hospital's ICT department on 08 September 2025, ahead of the official TUT Work-Integrated Learning (WIL) period (01 Oct 2025 – 30 Mar 2026).</li>
+            <li>Continuing as a volunteer in the ICT department beyond the formal WIL period.</li>
+            <li>Designed and developed an ICT Call Logging System to streamline the tracking and resolution of internal ICT support calls.</li>
+            <li>Built a full-stack web application using React (Vite) on the frontend and Node.js on the backend, deployed on Render.</li>
+            <li>Collaborated with hospital ICT staff to gather requirements and iterate on the system based on real-world feedback.</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item fade-up">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2021</div>
+          <div class="timeline-title">First Year Development Programme</div>
+          <div class="timeline-org">Student Governance &amp; Leadership Development (SGLD), TUT</div>
+          <ul class="timeline-desc">
+            <li>Joined TUT's First Year Development Programme focused on personal and leadership growth.</li>
+            <li>Attended workshops covering student life, academic readiness, and leadership skills.</li>
+            <li>Received mentorship from senior students and staff to navigate the transition into university.</li>
+            <li>Contributed to community outreach by guiding high school learners on tertiary course selection and career pathways.</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item fade-up">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2019</div>
+          <div class="timeline-title">National Senior Certificate (Matric)</div>
+          <div class="timeline-org">Zitikeni Secondary School, South Africa</div>
+          <ul class="timeline-desc">
+            <li>Completed matric with Mathematics and Physical Science as major subjects.</li>
+            <li>Developed foundational analytical and problem-solving skills.</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CERTIFICATIONS ===== -->
+  <section id="certifications">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">// credentials</span>
+        <h2 class="section-title">Certifications &amp; <span>Badges</span></h2>
+      </div>
+      <div class="cert-grid">
+
+        <div class="cert-card fade-up">
+          <div class="cert-logo cert-cisco">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="28" height="28"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <div class="cert-info">
+            <h3>Introduction to Cybersecurity</h3>
+            <p>Cisco</p>
+            <span class="cert-tag">Cybersecurity</span>
+          </div>
+          <a href="https://www.credly.com/users/siphesihle-skosana" target="_blank" rel="noopener" class="cert-link" title="View on Credly">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="16" height="16"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+        </div>
+
+        <div class="cert-card fade-up">
+          <div class="cert-logo cert-alison">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="28" height="28"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <div class="cert-info">
+            <h3>Introduction to HTML &amp; CSS</h3>
+            <p>Alison</p>
+            <span class="cert-tag">HTML &nbsp;·&nbsp; CSS</span>
+          </div>
+          <a href="https://alison.com/certification/check/$2y$10$wcI0Z3BcRbqLu4IRQ4W.OeG7IYKoGzSR3KqDWKfbbE1Zduw0zkPJy" target="_blank" rel="noopener" class="cert-link" title="View Certificate">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="16" height="16"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+        </div>
+
+        <div class="cert-card fade-up">
+          <div class="cert-logo cert-ibm">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="28" height="28"><ellipse cx="12" cy="12" rx="10" ry="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          </div>
+          <div class="cert-info">
+            <h3>Data Fundamentals</h3>
+            <p>IBM SkillsBuild</p>
+            <span class="cert-tag">Data</span>
+          </div>
+          <a href="https://www.credly.com/users/siphesihle-skosana" target="_blank" rel="noopener" class="cert-link" title="View on Credly">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="16" height="16"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+        </div>
+
+        <div class="cert-card fade-up">
+          <div class="cert-logo cert-ibm">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="28" height="28"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+          </div>
+          <div class="cert-info">
+            <h3>IBM Z Datathon 2024</h3>
+            <p>IBM &amp; Shooting Stars Foundation &nbsp;·&nbsp; 2024</p>
+            <span class="cert-tag">Data &nbsp;·&nbsp; Global Competition</span>
+          </div>
+          <a href="https://certificate.hack2skill.com/user/ssfibmappreciaton/2024H2S10IBM-A001041" target="_blank" rel="noopener" class="cert-link" title="View Certificate">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="16" height="16"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+        </div>
+
+        <div class="cert-card fade-up">
+          <div class="cert-logo cert-alison">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="28" height="28"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <div class="cert-info">
+            <h3>Java for Beginners</h3>
+            <p>Alison</p>
+            <span class="cert-tag">Java &nbsp;·&nbsp; Programming</span>
+          </div>
+          <a href="https://alison.com/certification/check/$2y$10$HsaaEk2eRTFx4yrUsPgZusPLQ9GVWQLwECTsRdBERF7oFB5DgCMa" target="_blank" rel="noopener" class="cert-link" title="View Certificate">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="16" height="16"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+        </div>
+
+        <div class="cert-card fade-up">
+          <div class="cert-logo cert-thm">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="28" height="28"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+          </div>
+          <div class="cert-info">
+            <h3>Advent of Cyber 2024</h3>
+            <p>TryHackMe &nbsp;·&nbsp; 29 Dec 2024</p>
+            <span class="cert-tag">Cybersecurity</span>
+          </div>
+          <a href="https://tryhackme.com/certificate/THM-XP8QEQQVQ5" target="_blank" rel="noopener" class="cert-link" title="View Certificate">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="16" height="16"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-wrapper">
+        <div class="section-header">
+          <span class="section-label">// get in touch</span>
+          <h2 class="section-title">Let's <span>Connect</span></h2>
+        </div>
+        <p class="contact-intro">
+          I'm currently open to internship opportunities, graduate roles, and interesting
+          projects. Whether you want to collaborate, hire, or just say hi — my inbox is open.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:xolaniskosana06@gmail.com" class="contact-link">
+            <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            Email
+          </a>
+          <a href="https://github.com/KayTersy06" target="_blank" rel="noopener" class="contact-link">
+            <svg viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/siphesihle-skosana-8228b01b2" target="_blank" rel="noopener" class="contact-link">
+            <svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            LinkedIn
+          </a>
+        </div>
+        <a href="mailto:xolaniskosana06@gmail.com" class="contact-email">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          xolaniskosana06@gmail.com
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="container">
+      <p class="footer-text">
+        Designed &amp; built by <span>Siphesihle Xolani Skosana</span> &nbsp;·&nbsp; &copy; <span id="year"></span>
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
