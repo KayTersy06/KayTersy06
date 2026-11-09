@@ -36,7 +36,7 @@ document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
 
 // ===== TYPING EFFECT =====
 const roles = [
-  'Computer Science Student',
+  'Computer Science Graduate',
   'Software Developer',
   'Problem Solver',
   'Tech Enthusiast',
